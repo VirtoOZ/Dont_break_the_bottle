@@ -1,0 +1,45 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>Введи имя</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Кодировка страницы -->
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+</head>
+
+<body>
+	<!--оболочка-->
+	<div class="wrapper">
+		<div class="game">
+			<div class="game__body">
+				<div class="game__items">
+					<div class="game__text">
+						Результат: <span></span>
+					</div>
+				</div>
+				<div class="game__counter"></div>
+			</div>
+			<div class="game__win">Победа!</div>
+		</div>
+		<div class="info">
+			<a href="#info" class="info__icon">i</a>
+			<div id="info" class="info__body">
+				<a href="#" class="info__close">X</a>
+				<div class="info__text">
+					<p>Продержись минуту уберегая пляху водки от коварных стен.</p>
+					<p>Игра начнется при наведении на серое поле.</p>
+					<p>При выходе за пределы поля, игра начнется с начала.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="/js/script.js"></script>
+</body>
+
+</html>
